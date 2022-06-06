@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    background: url('../img/fon_books.jpg') no-repeat;
+    /* background-color: rgba(119, 150, 125, 0.5); */
+    background-size: cover;
+    background-position: center;
+}
+
+.todo {
+    max-width: 35%;
+    margin: 0 auto;
+    margin-top: 75px;
+    /* min-height: 25%; */
+    /* background-color: rgba(240, 150, 86, 0.25); */
+    /* background-color: rgba(199, 135, 58, 0.25); */
+    background-color: rgba(171, 155, 147, 0.25);
+    border-radius: 5px;
+}
+
+.title {
+    /* border-bottom: 2px solid #AB9B93; */
+    /* box-shadow: 5px 5px 15px 1px #49140ad0; */
+    height: 100px;
+    line-height: 100px;
+}
+
+.title p {
+    font-size: 55px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    color: #353535;
+}
+
+.input-window {
+    text-align: center;
+}
+
+.input-window input {
+    width: 85%;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 2px #f3f0ef;
+    font-size: 25px;
+    border: 1px solid #AB9B93;
+    outline: none;
+    font-family: 'Merriweather', serif;
+    padding-left: 25px;
+    color: #080808;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+input::placeholder {
+    color: rgba(34, 34, 34, 0.5);
+    font-style: italic;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.doings {
+    list-style: none;
+    padding-left: 25px;
+    font-family: 'Merriweather', serif;
+}
+
+.doings input[type='checkbox'] {
+    /* visibility: hidden; */
+    width: 35px;
+    height: 35px;
+}
+
+
+
+/* .circle {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: blue;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+
+} */
